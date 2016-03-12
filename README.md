@@ -1,5 +1,5 @@
 <h1>Simple Dispatcher realisation</h1>
-<p>Dispatcher allows you to easily use pub/sub mekhanizm.</p>
+<p>Dispatcher allows you to easily use pub/sub mechanizm.</p>
 <h5>To use dispatcher, copy it from app/js, paste in your project and write next in your code</h5>
 
 ```javascript
