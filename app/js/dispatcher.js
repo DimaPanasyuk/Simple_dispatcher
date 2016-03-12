@@ -9,14 +9,9 @@ let App  = {
 
 		listen = (action, callback) => {
 
-			if (action in actions) {
-
-				console.log(`Controller: Action already exists`);
-			} else {
-
+			if (!(action in actions)) {
+				
 				actions[action] = callback;
-			}
-
 		};
 
 		emit = (action) => {
@@ -24,9 +19,6 @@ let App  = {
 			if (action in actions) {
 
 				actions[action]();
-			} else {
-
-				console.log('Controller: There is no such action!');
 			}
 		};
 
@@ -35,9 +27,6 @@ let App  = {
 			if (action in actions) {
 
 				delete actions[action];
-			} else {
-
-				console.log('Controller: No such action to delete!');
 			}
 		};
 
