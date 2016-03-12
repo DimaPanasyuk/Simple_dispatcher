@@ -5,8 +5,8 @@
 <h5>To subscribe some function on your event, simply write this one:</h5>
 <code>
 dispatcher.sub('your event goes here', () => {
-	//Yours function realisation goes here
-	console.log('User clicked on button!');
+  //Yours function realisation goes here
+  console.log('User clicked on button!');
 });
 </code>
 <h5>
