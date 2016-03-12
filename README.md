@@ -4,10 +4,10 @@
 <code>dispatcher.pub('your event goes here');</code>
 <h5>To subscribe some function on your event, simply write this one:</h5>
 <code>
-	dispatcher.sub('your event goes here', () => {
-		//Yours function realisation goes here
-		console.log('User clicked on button!');
-	});
+dispatcher.sub('your event goes here', () => {
+	//Yours function realisation goes here
+	console.log('User clicked on button!');
+});
 </code>
 <h5>
 	You are able to unsubscribe your function from event:
