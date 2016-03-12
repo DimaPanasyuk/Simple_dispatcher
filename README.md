@@ -1,9 +1,9 @@
 <h1>Simple Dispatcher realisation</h1>
 <p>Dispatcher allows you to easily use pub/sub mekhanizm.</p>
-<h5>To use dispatcher write next in your code</h5>
+<h5>To use dispatcher, copy it from app/js, paste in your project and write next in your code</h5>
 
 ```javascript
-import dispatcher from 'dispatcher';
+import dispatcher from 'path/to/dispatcher';
 ```
 <h5>To publish some event simply write this code:</h5>
 
