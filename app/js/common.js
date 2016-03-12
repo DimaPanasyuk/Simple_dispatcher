@@ -52,6 +52,7 @@ let App  = {
 };
 
 export default App.dispatcher;
+};
 
 
 
