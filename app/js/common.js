@@ -49,31 +49,9 @@ let App  = {
 		}
 
 	})()
-<<<<<<< HEAD
 };
 
 export default App.dispatcher;
-=======
-},	
-		dispatcher = App.dispatcher;
-
-//Usage example
-
-//Subscribing custom function on 
-//custom user event 'user-click'
-dispatcher.sub('user-click', () => {
-
-	console.log('User clicked on button!');
-});
-
-
-window.addEventListener('click', () => {
-
-	//'Publishing' custom user event
-	dispatcher.pub('user-click');
-});
-
->>>>>>> 6826f385b1f659451df4c0b8facc414b8e902d25
 
 
 
