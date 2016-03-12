@@ -8,7 +8,7 @@ import dispatcher from 'path/to/dispatcher';
 <h5>To publish some event simply write this code:</h5>
 
 ```javascript
-dispatcher.pub('your event goes here');</code>
+dispatcher.pub('your event goes here');
 ```
 <h5>To subscribe some function on your event, simply write this one:</h5>
 
