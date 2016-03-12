@@ -9,6 +9,7 @@ dispatcher.pub('your event goes here');</code>
 
 ```javascript
 dispatcher.sub('your event goes here', () => {
+  
   //Yours function realisation goes here
   console.log('User clicked on button!');
 });
@@ -16,5 +17,5 @@ dispatcher.sub('your event goes here', () => {
 <h5>You are able to unsubscribe your function from event:</h5>
 
 ```javascript
-dispatcher.unsub('your event goes here');</code>
+dispatcher.unsub('your event goes here');
 ```
