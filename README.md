@@ -19,7 +19,7 @@ dispatcher.sub('your event goes here', () => {
   console.log('User clicked on button!');
 });
 ```
-<h5>You are able to unsubscribe your function from event:</h5>
+<h5>You are able to delete your event</h5>
 
 ```javascript
 dispatcher.unsub('your event goes here');
